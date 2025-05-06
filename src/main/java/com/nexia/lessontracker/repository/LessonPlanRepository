@@ -1,0 +1,8 @@
+package com.nexia.lessontracker.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.nexia.lessontracker.model.LessonPlan;
+
+public interface LessonPlanRepository extends JpaRepository<LessonPlan, Long> {
+}
